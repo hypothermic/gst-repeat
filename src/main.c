@@ -49,6 +49,8 @@ int main(int argc, char **argv) {
     gst_debug_set_active(TRUE);
     gst_debug_category_set_threshold(GST_CAT_DEFAULT, GST_LEVEL_WARNING);
 
+    INFO(R_DEPTH_ROUTINE, "Initialized gst-repeat v%s", R_VERSION);
+
     /* Parse options */
     context = g_option_context_new("- gst-repeat options");
     g_option_context_add_main_entries(context, option_entries, NULL);
