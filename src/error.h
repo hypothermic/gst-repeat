@@ -1,0 +1,8 @@
+#ifndef GST_REPEAT_ERROR_H
+#define GST_REPEAT_ERROR_H
+
+#define R_CODE_SUCCESS              0
+#define R_CODE_ERROR_OPTIONS     9001
+#define R_CODE_ERROR_NO_PIPELINE 9002
+
+#endif //GST_REPEAT_ERROR_H
